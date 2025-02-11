@@ -1,13 +1,13 @@
 # HoopMetrics
 
-A basketball analytics dashboard that fetches NBA data, processes stats, and visualizes trends using S3.
+A basketball analytics tool that fetches NBA player stats, stores them in S3, and generates visual insights.
 
-### Features:
-- Fetch real-time NBA player stats via API.
-- Store and retrieve player data from S3.
-- Generate visualizations for performance analysis.
+## Features
+- Fetch real-time NBA player data from an API.
+- Store and access player stats using S3.
+- Create simple visualizations for performance analysis.
 
-### Setup:
-1. Install dependencies: `pip install -r requirements.txt`
-2. Configure `config/s3_config.ini` with AWS credentials.
-3. Run `main.py` to fetch and analyze data.
+## Setup
+1. Install required packages:
+   ```bash
+   pip install -r requirements.txt
